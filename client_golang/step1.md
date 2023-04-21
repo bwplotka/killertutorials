@@ -12,7 +12,7 @@ Particularly:
     git clone git@github.com:prometheus/client_golang.git
     ```{{exec}}
    
-2. Go to whatup dir:
+2. Go to repo and whatsup dir:
 
     ```
     cd client_golang/tutorial/whatsup
@@ -30,6 +30,8 @@ Particularly:
 In killercoda this will not open UI, but instead print network address of Jaeger and Prometheus (in order):
 
 To access those, click link fom `Opening <Address> in browser` or put port manually into port field in [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
+
+NOTE: Might take a few seconds for thins to get exposed, so initially page might be resulting with "This site can’t be reached".
 
 4. Modify and run main.go
 
