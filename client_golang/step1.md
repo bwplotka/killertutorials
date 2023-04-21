@@ -43,7 +43,7 @@ NOTE: Might take a few seconds for thins to get exposed, so initially page might
 
 Now you can in separate terminal:
 
-* Get main.go metrics to explore or [in browser]({{TRAFFIC_HOST1_99}})
+* Get `client_golang/tutorials/whatsup/main.go` metrics to explore or [in browser]({{TRAFFIC_HOST1_99}})
 
     ```
     export WHATSUPADDR={{TRAFFIC_HOST1_99}}
@@ -61,7 +61,7 @@ Now you can in separate terminal:
 
 ## Task
 
-Modify main.go to have:
+Modify main.go (you can click "Editor" tab) to have:
 
 - Scrape Endpoint
 - whatsup_queries_handled_total (counter)
