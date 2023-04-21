@@ -21,7 +21,7 @@ Particularly:
 3. Run Prometheus and Jaeger in Background:
 
     ```
-    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
+    export HOSTADDR={{TRAFFIC_HOST1_99}}
     make init
     ```{{exec}}
 
@@ -46,7 +46,7 @@ Now you can in separate terminal:
 * Get `client_golang/tutorials/whatsup/main.go` metrics to explore or [in browser]({{TRAFFIC_HOST1_99}})
 
     ```
-    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
+    export HOSTADDR={{TRAFFIC_HOST1_99}}
     make metrics
     ```{{exec}}
 
@@ -54,7 +54,7 @@ Now you can in separate terminal:
 * Run acceptance tests to verify your progress.
 
     ```
-    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
+    export HOSTADDR={{TRAFFIC_HOST1_99}}
     make test
     ```{{exec}}
 
