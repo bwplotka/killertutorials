@@ -21,6 +21,7 @@ Particularly:
 3. Run Prometheus and Jaeger in Background:
 
     ```
+    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
     make init
     ```{{exec}}
 
@@ -35,7 +36,6 @@ To access those, copy the port of Jaeger or Prometheus (e.g. `Opening http://127
 4. Modify and run main.go
 
     ```
-    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
     make run
     ```{{exec}}
 
@@ -46,6 +46,7 @@ Now you can in separate terminal:
 * Get main.go metrics to explore or [in browser]({{TRAFFIC_HOST1_99}})
 
     ```
+    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
     make metrics
     ```{{exec}}
 
@@ -53,6 +54,7 @@ Now you can in separate terminal:
 * Run acceptance tests to verify your progress.
 
     ```
+    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
     make test
     ```{{exec}}
 
