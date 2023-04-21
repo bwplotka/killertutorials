@@ -35,7 +35,7 @@ To access those, copy the port of Jaeger or Prometheus (e.g. `Opening http://127
 4. Modify and run main.go
 
     ```
-    export HOSTURL={{TRAFFIC_HOST1}}
+    export WHATSUPADDR={{TRAFFIC_HOST1_99}}
     make run
     ```{{exec}}
 
