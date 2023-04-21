@@ -29,9 +29,7 @@ Particularly:
 
 In killercoda this will not open UI, but instead print network address of Jaeger and Prometheus (in order):
 
-![img.png](img.png)
-
-To access those, copy the port of Jaeger or Prometheus (e.g. `Opening http://127.0.0.1:49160 in browser`, but ports are dynamic) and put into port field in [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
+To access those, click link fom `Opening <Address> in browser` or put port manually into port field in [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
 
 4. Modify and run main.go
 
